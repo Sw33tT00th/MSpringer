@@ -33,10 +33,19 @@ To set up Gulp:
 		  This will create a subdirectory called "MSpringer" which is the repository
 
 	5. Install Gulp and it's dependencies
+		- if you are on a PC, return the the ADMIN powershell window
 		- cd into the git repo "cd whatever/path/you/chose/MSpringer/"
 		- cd into the Dev directory "cd Dev"
 		- On a mac, run "sudo npm install"
-		- On a PC, run "npm install"
+		- On a PC, run the following:
+			"npm install gulp"
+		  	"npm install gulp-autoprefixer"
+		  	"npm install gulp-imagemin"
+		  	"npm install gulp-livereload"
+		  	"npm install gulp-sass"
+		  	"npm install gulp-sourcemaps"
+		  	"npm install gulp-uglifyjs"
+		  	"npm install imagemin-pngquant"
 
 
 Editing:
