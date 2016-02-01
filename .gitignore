@@ -3,3 +3,6 @@ Dev/node_modules/
 Dev/Images/**/*
 
 Dev/Images/*
+
+*.log
+/**/*.log
