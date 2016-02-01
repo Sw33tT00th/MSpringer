@@ -25,7 +25,14 @@ To set up Gulp:
 		- On a PC (MAKE SURE YOU ARE RUNNING POWERSHELL AS AN ADMIN!!!)
 		  run the command "npm install -g gulp"
 
-	4. Install Gulp and it's dependencies
+	4. Clone the repository
+		- On a PC, open the git bash
+		- On a mac your terminal will work just fine
+		- cd to wherever you wish to put the repository
+		- enter the command "git clone https://github.com/Sw33tT00th/MSpringer.git"
+		  This will create a subdirectory called "MSpringer" which is the repository
+
+	5. Install Gulp and it's dependencies
 		- cd into the git repo "cd whatever/path/you/chose/MSpringer/"
 		- cd into the Dev directory "cd Dev"
 		- On a mac, run "sudo npm install"
