@@ -45,7 +45,7 @@ gulp.task('watch', function(){
 
     gulp.watch('./sass/**/*.scss', ['sass']);
     gulp.watch('./lib/*.js', ['uglify']);
-    gulp.watch(['./css/style.css', './**/*.html', './js/*.js'], function (files){
+    gulp.watch(['./css/style.css', './**/*.html', './**/*.php', './js/*.js'], function (files){
         livereload.changed(files)
     });
 });
