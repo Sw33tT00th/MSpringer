@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+	<!-- start of 404.php -->
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -59,6 +59,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	<!-- End of 404.php -->
 <?php
 get_footer();

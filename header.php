@@ -11,6 +11,7 @@
 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+<!-- Start of header.php -->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,3 +49,4 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+	<!-- End of header.php -->

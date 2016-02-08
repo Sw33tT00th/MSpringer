@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+	<!-- Start of search.php -->
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -42,7 +43,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
-
+	<!-- End of search.php -->
 <?php
 get_sidebar();
 get_footer();

@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+	<!-- Start of archive.php -->
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -45,7 +45,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	<!-- End of archive.php -->
 <?php
 get_sidebar();
 get_footer();
