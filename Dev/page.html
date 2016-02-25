@@ -6,25 +6,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="../../../../xmlrpc.php">
-    <title>J-Loud-1 | Tagline</title>
+    <link rel="pingback" href="http://dev-personal-wp-devtest.pantheon.io/xmlrpc.php">
+    <title>personal-wp-dev &#8211; Just another WordPress site</title>
     <meta name='robots' content='noindex,follow' />
-    <link rel="alternate" type="application/rss+xml" title="J-Loud-1 &raquo; Feed" href="../../../../feed/" />
-    <link rel="alternate" type="application/rss+xml" title="J-Loud-1 &raquo; Comments Feed" href="../../../../comments/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="J-Loud-1 &raquo; Homepage Comments Feed" href="../../../../homepage/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="personal-wp-dev &raquo; Feed" href="http://dev-personal-wp-devtest.pantheon.io/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="personal-wp-dev &raquo; Comments Feed" href="http://dev-personal-wp-devtest.pantheon.io/comments/feed/" />
     <script type="text/javascript">
     window._wpemojiSettings = {
-        "baseUrl": "http:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
+        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
         "ext": ".png",
         "source": {
-            "concatemoji": "http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.3"
+            "concatemoji": "http:\/\/dev-personal-wp-devtest.pantheon.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"
         }
     };
     ! function(a, b, c) {
         function d(a) {
-            var c = b.createElement("canvas"),
-                d = c.getContext && c.getContext("2d");
-            return d && d.fillText ? (d.textBaseline = "top", d.font = "600 32px Arial", "flag" === a ? (d.fillText(String.fromCharCode(55356, 56812, 55356, 56807), 0, 0), c.toDataURL().length > 3e3) : (d.fillText(String.fromCharCode(55357, 56835), 0, 0), 0 !== d.getImageData(16, 16, 1, 1).data[0])) : !1
+            var c, d = b.createElement("canvas"),
+                e = d.getContext && d.getContext("2d"),
+                f = String.fromCharCode;
+            return e && e.fillText ? (e.textBaseline = "top", e.font = "600 32px Arial", "flag" === a ? (e.fillText(f(55356, 56806, 55356, 56826), 0, 0), d.toDataURL().length > 3e3) : "diversity" === a ? (e.fillText(f(55356, 57221), 0, 0), c = e.getImageData(16, 16, 1, 1).data.toString(), e.fillText(f(55356, 57221, 55356, 57343), 0, 0), c !== e.getImageData(16, 16, 1, 1).data.toString()) : ("simple" === a ? e.fillText(f(55357, 56835), 0, 0) : e.fillText(f(55356, 57135), 0, 0), 0 !== e.getImageData(16, 16, 1, 1).data[0])) : !1
         }
 
         function e(a) {
@@ -34,10 +34,12 @@
         var f, g;
         c.supports = {
             simple: d("simple"),
-            flag: d("flag")
+            flag: d("flag"),
+            unicode8: d("unicode8"),
+            diversity: d("diversity")
         }, c.DOMReady = !1, c.readyCallback = function() {
             c.DOMReady = !0
-        }, c.supports.simple && c.supports.flag || (g = function() {
+        }, c.supports.simple && c.supports.flag && c.supports.unicode8 && c.supports.diversity || (g = function() {
             c.readyCallback()
         }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function() {
             "complete" === b.readyState && c.readyCallback()
@@ -58,15 +60,16 @@
         padding: 0 !important;
     }
     </style>
-    <link rel='stylesheet' id='open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.3.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='dashicons-css' href='../../../../wp-includes/css/dashicons.min.css?ver=4.3.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='admin-bar-css' href='../../../../wp-includes/css/admin-bar.min.css?ver=4.3.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='mspringer-style-css' href='css/style.css?ver=4.3.3' type='text/css' media='all' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 4.3.3" />
-    <link rel='canonical' href='../../../../' />
-    <link rel='shortlink' href='../../../../' />
+    <link rel='stylesheet' id='open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='dashicons-css' href='http://dev-personal-wp-devtest.pantheon.io/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='admin-bar-css' href='http://dev-personal-wp-devtest.pantheon.io/wp-includes/css/admin-bar.min.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='css/style.css?ver=4.4.2' type='text/css' media='all' />
+    <link rel='https://api.w.org/' href='http://dev-personal-wp-devtest.pantheon.io/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dev-personal-wp-devtest.pantheon.io/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dev-personal-wp-devtest.pantheon.io/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.4.2" />
+    <link rel="canonical" href="http://dev-personal-wp-devtest.pantheon.io/" />
+    <link rel='shortlink' href='http://dev-personal-wp-devtest.pantheon.io/' />
     <style type="text/css" media="print">
     #wpadminbar {
         display: none;
@@ -92,22 +95,65 @@
     </style>
 </head>
 
-<body class="home page page-id-2 page-template-default logged-in admin-bar no-customize-support">
+<body class="home page page-id-10 page-template-default logged-in admin-bar no-customize-support">
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
         <header id="masthead" class="site-header" role="banner">
             <div class="site-branding">
-                <p class="site-title"><a href="../../../../" rel="home">J-Loud-1</a></p>
-                <p class="site-description">Tagline</p>
+                <p class="site-title"><a href="http://dev-personal-wp-devtest.pantheon.io/" rel="home">personal-wp-dev</a></p>
+                <p class="site-description">Just another WordPress site</p>
             </div>
             <!-- .site-branding -->
             <nav id="site-navigation" class="main-navigation" role="navigation">
                 <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
-                <div class="menu">
-                    <ul>
-                        <li class="page_item page-item-2 current_page_item"><a href="../../../../">Homepage</a></li>
-                        <li class="page_item page-item-25"><a href="../../../../latest-posts/">Latest Posts</a></li>
-                        <li class="page_item page-item-18"><a href="../../../../resume/">Resume</a></li>
+                <div class="menu-main-menu-container">
+                    <ul id="primary-menu" class="menu">
+                        <li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-81"><a href="#">Exhibit</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-84"><a href="http://dev-personal-wp-devtest.pantheon.io/">Martin-Springer Institute</a></li>
+                                <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://dev-personal-wp-devtest.pantheon.io/creation-of-the-exhibit/">Creation of the Exhibit</a></li>
+                                <li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://dev-personal-wp-devtest.pantheon.io/contact-information/">Contact Information</a></li>
+                                <li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://dev-personal-wp-devtest.pantheon.io/credits/">Credits</a></li>
+                                <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://dev-personal-wp-devtest.pantheon.io/donations/">Donations</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-82"><a href="#">History</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://dev-personal-wp-devtest.pantheon.io/maps/">Maps</a></li>
+                                <li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://dev-personal-wp-devtest.pantheon.io/timeline/">Timeline</a></li>
+                                <li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-91"><a href="#">Bedzin Ghetto</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://dev-personal-wp-devtest.pantheon.io/before-the-war/">Before the War</a></li>
+                                        <li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="http://dev-personal-wp-devtest.pantheon.io/occupation-ghettoization/">Occupation &#038; Ghettoization</a></li>
+                                        <li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="http://dev-personal-wp-devtest.pantheon.io/ghetto-lives/">Ghetto Lives</a></li>
+                                        <li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="http://dev-personal-wp-devtest.pantheon.io/postwar-lives/">Postwar Lives</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92"><a href="#">Personal Stories</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="http://dev-personal-wp-devtest.pantheon.io/hadassah-broder/">Hadassah Broder</a></li>
+                                        <li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="http://dev-personal-wp-devtest.pantheon.io/rutka-laskier/">Rutka Laskier</a></li>
+                                        <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="http://dev-personal-wp-devtest.pantheon.io/ella-lieberman-shiber/">Ella Lieberman-Shiber</a></li>
+                                        <li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="http://dev-personal-wp-devtest.pantheon.io/jane-lipski/">Jane Lipski</a></li>
+                                        <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="http://dev-personal-wp-devtest.pantheon.io/doris-martin/">Doris Martin</a></li>
+                                        <li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="http://dev-personal-wp-devtest.pantheon.io/sam-pivnik/">Sam Pivnik</a></li>
+                                        <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="http://dev-personal-wp-devtest.pantheon.io/rose-rechnic/">Rose Rechnic</a></li>
+                                        <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="http://dev-personal-wp-devtest.pantheon.io/arnold-shaye/">Arnold Shaye</a></li>
+                                        <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="http://dev-personal-wp-devtest.pantheon.io/more-stories/">More Stories</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83"><a href="#">Resources</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://dev-personal-wp-devtest.pantheon.io/education/">Education</a></li>
+                                <li id="menu-item-107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"><a href="http://dev-personal-wp-devtest.pantheon.io/category/glossary/">Glossary</a></li>
+                                <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="http://dev-personal-wp-devtest.pantheon.io/annotated-bibliography/">Annotated Bibliography</a></li>
+                                <li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="http://dev-personal-wp-devtest.pantheon.io/photo-credits/">Photo Credits</a></li>
+                                <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="http://dev-personal-wp-devtest.pantheon.io/archival-sites/">Archival Sites</a></li>
+                                <li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="http://dev-personal-wp-devtest.pantheon.io/other/">Other</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -116,26 +162,19 @@
         <!-- #masthead -->
         <div id="content" class="site-content">
             <!-- End of header.php -->
-            <!-- Start of page.php -->
+            <!-- Start of page-home.php -->
             <div id="primary" class="content-area">
                 <main id="main" class="site-main" role="main">
-                    <article id="post-2" class="post-2 page type-page status-publish hentry">
+                    <article id="post-10" class="post-10 page type-page status-publish hentry">
                         <header class="entry-header">
                             <h1 class="entry-title">Homepage</h1> </header>
                         <!-- .entry-header -->
                         <div class="entry-content">
-                            <p>This site is essentially a test. As a budding web developer the whole point of this site is to give a first attempt at creating a custom theme and/or plugins. It is also here for me to learn how to actually get a domain name as well as some actual webspace.</p>
-                            <p>I also intend to use this site as an actual blog (partly to see if I have anything resembling skill in writing) with three categories</p>
-                            <ul>
-                                <li>Lynda Logs &#8211; A blog about going through some playlists on <a href="http://www.lynda.com/">lynda.com</a> starting with one on WordPress development.</li>
-                                <li>Reader&#8217;s Indigestion &#8211; A blog concerning books, some that I liked, some that I didn&#8217;t, and my various moody opinions on them.</li>
-                                <li>Gamer&#8217;s Gluttony &#8211; A blog focused on what games I&#8217;ve been playing lately and what I think of them.</li>
-                            </ul>
-                            <p>I have no idea how consistent with writing anything on this, but here the site is just the same.</p>
+                            <p>This will be the homepage</p>
                         </div>
                         <!-- .entry-content -->
                         <footer class="entry-footer">
-                            <span class="edit-link"><a class="post-edit-link" href="../../../../wp-admin/post.php?post=2&amp;action=edit">Edit <span class="screen-reader-text">"Homepage"</span></a>
+                            <span class="edit-link"><a class="post-edit-link" href="http://dev-personal-wp-devtest.pantheon.io/wp-admin/post.php?post=10&#038;action=edit">Edit <span class="screen-reader-text">"Homepage"</span></a>
                             </span>
                         </footer>
                         <!-- .entry-footer -->
@@ -145,11 +184,63 @@
                 <!-- #main -->
             </div>
             <!-- #primary -->
-            <!-- End of page.php -->
+            <!-- End of page-home.php -->
             <!-- Start of footer.php -->
         </div>
         <!-- #content -->
         <footer id="colophon" class="site-footer" role="contentinfo">
+            <nav>
+                <div class="menu-main-menu-container">
+                    <ul id="primary-menu" class="menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-81"><a href="#">Exhibit</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-84"><a href="http://dev-personal-wp-devtest.pantheon.io/">Martin-Springer Institute</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://dev-personal-wp-devtest.pantheon.io/creation-of-the-exhibit/">Creation of the Exhibit</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://dev-personal-wp-devtest.pantheon.io/contact-information/">Contact Information</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://dev-personal-wp-devtest.pantheon.io/credits/">Credits</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://dev-personal-wp-devtest.pantheon.io/donations/">Donations</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-82"><a href="#">History</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://dev-personal-wp-devtest.pantheon.io/maps/">Maps</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://dev-personal-wp-devtest.pantheon.io/timeline/">Timeline</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-91"><a href="#">Bedzin Ghetto</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://dev-personal-wp-devtest.pantheon.io/before-the-war/">Before the War</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="http://dev-personal-wp-devtest.pantheon.io/occupation-ghettoization/">Occupation &#038; Ghettoization</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="http://dev-personal-wp-devtest.pantheon.io/ghetto-lives/">Ghetto Lives</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="http://dev-personal-wp-devtest.pantheon.io/postwar-lives/">Postwar Lives</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92"><a href="#">Personal Stories</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="http://dev-personal-wp-devtest.pantheon.io/hadassah-broder/">Hadassah Broder</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="http://dev-personal-wp-devtest.pantheon.io/rutka-laskier/">Rutka Laskier</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="http://dev-personal-wp-devtest.pantheon.io/ella-lieberman-shiber/">Ella Lieberman-Shiber</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="http://dev-personal-wp-devtest.pantheon.io/jane-lipski/">Jane Lipski</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="http://dev-personal-wp-devtest.pantheon.io/doris-martin/">Doris Martin</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="http://dev-personal-wp-devtest.pantheon.io/sam-pivnik/">Sam Pivnik</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="http://dev-personal-wp-devtest.pantheon.io/rose-rechnic/">Rose Rechnic</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="http://dev-personal-wp-devtest.pantheon.io/arnold-shaye/">Arnold Shaye</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="http://dev-personal-wp-devtest.pantheon.io/more-stories/">More Stories</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83"><a href="#">Resources</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://dev-personal-wp-devtest.pantheon.io/education/">Education</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"><a href="http://dev-personal-wp-devtest.pantheon.io/category/glossary/">Glossary</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="http://dev-personal-wp-devtest.pantheon.io/annotated-bibliography/">Annotated Bibliography</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="http://dev-personal-wp-devtest.pantheon.io/photo-credits/">Photo Credits</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="http://dev-personal-wp-devtest.pantheon.io/archival-sites/">Archival Sites</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="http://dev-personal-wp-devtest.pantheon.io/other/">Other</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <div class="site-info">
                 <a href="https://wordpress.org/">Proudly powered by WordPress</a>
                 <span class="sep"> | </span> Theme: mspringer by <a href="http://underscores.me/" rel="designer">Underscores.me</a>. </div>
@@ -158,9 +249,10 @@
         <!-- #colophon -->
     </div>
     <!-- #page -->
-    <script type='text/javascript' src='../../../../wp-includes/js/admin-bar.min.js?ver=4.3.3'></script>
+    <script type='text/javascript' src='http://dev-personal-wp-devtest.pantheon.io/wp-includes/js/admin-bar.min.js?ver=4.4.2'></script>
     <script type='text/javascript' src='js/navigation.js?ver=20120206'></script>
     <script type='text/javascript' src='js/skip-link-focus-fix.js?ver=20130115'></script>
+    <script type='text/javascript' src='http://dev-personal-wp-devtest.pantheon.io/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
     <script type="text/javascript">
     (function() {
         var request, b = document.body,
