@@ -28,6 +28,10 @@
 	<header id="masthead" class="site-header" role="banner">
 		<image id="header-image" src="<?php echo get_template_directory_uri() ?>/Images/cropped-girls_cropped_4.jpg" class="img-responsive" />
 		<div class="site-branding">
+            <div class="tagline">
+                <p id="tagline-first">Through the Eyes of Youth:</p>
+                <p id="tagline-second">Life and Death in the Będzin Ghetto</p>
+            </div>
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
