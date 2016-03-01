@@ -22,3 +22,26 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+
+//
+// mixin for bullet proof font declaration syntax
+//
+@mixin declare-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+    @font-face {
+        font-family: '#{$font-family}';
+        src: url(../MSpringer/fonts/#{$font-filename}.eot);
+        src: url(../MSpringer/fonts/#{$font-filename}.eot?#iefix) format('embedded-opentype'),
+        url(../MSpringer/fonts/#{$font-filename}.ttf) format('truetype'),
+        url(../MSpringer/fonts/#{$font-filename}.svg##{$font-family}) format('svg');
+        font-weight: $font-weight;
+        font-style: $font-style;
+        font-stretch: $font-stretch;
+    }
+}
+
+// Fonts
+@include declare-font-face('Oswald', 'Oswald-light', lighter);
+@include declare-font-face('Lato-Bold', 'Lato-Bold');
+@include declare-font-face('Lato', 'Lato-Regular');
+@include declare-font-face('Overlock', 'Overlock-Bold', bold);
+@include declare-font-face('Noto-Bold', 'NotoSans-Bold');
