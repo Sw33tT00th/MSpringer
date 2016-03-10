@@ -1,0 +1,332 @@
+
+/*
+
+Normal green Color #687246
+Darker green color #49512F
+*/
+
+
+/* ----------------------------------------------- */
+/*FONTS */
+/* ----------------------------------------------- */
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('resources/fonts/Gotham-Book.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('resources/fonts/Gotham-Bold.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Gotham-BookItalic;
+    src: url('resources/fonts/Gotham-BookItalic.otf');
+    font-style: italic;
+}
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('resources/fonts/Gotham-Medium.otf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: Gotham-MediumiTalic;
+    src: url('resources/fonts/Gotham-MediumItalic.otf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+/*
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+}
+
+
+html,
+body {
+    background-color: #fff;
+    color: black;
+    font-family: 'Gotham-Book', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+   
+   
+}
+
+p{
+   font-size: 18px;
+    color: #303030;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+h1{
+    /* EXHIBIT: */
+font-family: 'Gotham-Bold';
+font-size: 64px;
+color: #303030;
+line-height: 32px;
+}
+
+
+
+
+
+.banner{
+    
+    background-color: yellow;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/Users/dherbsta/MSpringer/HerbiesPlayGround/resources/img/girls.jpg);
+    background-size: cover;
+  color: #fff;
+     height:300px;
+/*    background-attachment: fixed;*/
+}
+.navbar{
+position: fixed;
+    
+}
+
+#main_menu{
+    text-transform: uppercase;
+    margin: 0px;
+      letter-spacing: 2px;
+    overflow:auto;
+   
+   
+}
+#main_menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+ 
+#main_menu.navbar-default {
+/*    font-size: 30px;*/
+    background-color: rgba(0, 0, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+ 
+#main_menu.navbar-default .navbar-nav{
+     float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+}
+ 
+
+#main_menu.navbar-default .navbar-nav>li>a {
+   
+    font-size: 20px;
+    font-family: "Gotham-Book";
+    padding-right: 50px;
+     padding-left: 50px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+    line-height: 35px;
+ 
+ 
+  
+}
+#main_menu.navbar-default .navbar-nav>li>a:hover,
+#main_menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color:  #49512F;
+;
+}
+#main_menu.navbar-default .navbar-nav>.active>a,
+#main_menu.navbar-default .navbar-nav>.active>a:hover,
+#main_menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(94, 180, 255, 1);
+
+}
+
+
+
+
+.dropbtn {
+    
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 1000;
+    position: absolute;
+    
+}
+
+
+li.dropdown {
+    display: inline-block;
+    
+    
+   
+}
+
+.dropdown-content {
+    display: none;
+    width: 20%;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-transform: none;
+  
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  
+   
+    
+}
+
+.dropdown-content a:hover 
+{
+    background-color: #687246;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.dropdown:hover > .dropdown-content {
+    display:inline-block;
+
+    
+}
+
+
+
+
+
+
+h1 {
+    font-weight: 300;
+    padding-top: 40px;
+    font-size: 180%;
+    word-spacing: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h2.top {
+    font-family: 'Gotham-Bold';
+    font-size: 36px;
+    word-spacing: 4px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+h2.bottom {
+  
+    font-size: 30px;
+    word-spacing: 4px;
+    text-align: left;
+    font-family: 'Gotham-Book';
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+
+h1:after {
+    display: block;
+    height: 4px;
+    background-color: #687246;
+    content: " ";
+    width:100%;
+    margin: 0 auto;
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+
+
+
+p.center{
+  text-align: center;
+}
+
+p.italic{
+    font-style: italic;
+}
+
+p.bold{
+    font-weight: 200;
+    font-style: italic;
+}
+
+h3{
+
+    
+ 
+}
+h3.center{
+  text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'Gotham-MediumItalic';
+    padding-bottom: 20px;
+    
+}
+
+.bedzinpic {
+    margin: 20px 0 20px 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/Users/dherbsta/MSpringer/HerbiesPlayGround/resources/img/bedzinexhibit.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    height: 400px;
+    width: inherit;
+}
+
+footer{
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #687246;
+    color: white;
+    
+}
+
+ul.sites{
+    font-size: 16px;
+}
+
+ul.sites>li{
+    list-style: none;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+ul.sites>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    
+    
+}
+
+ul.sites>li>a:hover 
+{
+   
+    text-decoration: underline;
+    
+    
+    
+}
+
+
