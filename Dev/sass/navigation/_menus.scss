@@ -103,6 +103,7 @@ header > .container-fluid {
 .menu-main-menu-container {}
 
 #primary-menu {
+	text-align: left;
 
 	li {
 		padding-top: 1em;
@@ -124,7 +125,7 @@ header > .container-fluid {
 
 	ul {
 		li {
-			padding: 12px 16px;
+			padding: 0;
 			color: #030303;
 			background-color: #f9f9f9;
 			&.focus,
@@ -133,6 +134,7 @@ header > .container-fluid {
 				background-color: #687246;
 			}
 			a {
+				padding: 12px 16px;
 				font-size: 14px;
 				text-transform: none;
 				color: inherit;

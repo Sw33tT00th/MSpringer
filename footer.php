@@ -16,15 +16,15 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<p>EXHIBIT</p>
 					<?php wp_nav_menu( array( 'theme_location' => 'footer-left' ) ); ?>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<p>HISTORY</p>
 					<?php wp_nav_menu( array( 'theme_location' => 'footer-center' ) ); ?>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<p>RESOURCES</p>
 					<?php wp_nav_menu( array( 'theme_location' => 'footer-right' ) ); ?>
 				</div>
