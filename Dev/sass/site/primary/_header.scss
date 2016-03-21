@@ -1,0 +1,25 @@
+.banner {
+	background-color: yellow;   
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/girls.jpg);
+	background-size: cover;
+	color: #fff;
+	height:300px;
+}
+
+h2.top {
+	font-family: 'Gotham-Bold';
+	font-size: 36px;
+	word-spacing: 4px;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+h2.bottom {
+	font-size: 30px;
+	word-spacing: 4px;
+	text-align: left;
+	font-family: 'Gotham-Book';
+	letter-spacing: 2px;
+	font-style: normal;
+}
