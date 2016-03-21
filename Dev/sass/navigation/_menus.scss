@@ -181,4 +181,42 @@ header > .container-fluid {
 /*--------------------------------------------------------
 # Footer
 --------------------------------------------------------*/
+.site-footer {
+	padding: 30px 0;
+	color: white;
+	background-color: #687246;
+	font-size: 16px;
 
+	a:hover,
+	a.focus {
+		color: white;
+	}
+
+	p {
+		color: white;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			letter-spacing: 2px;
+			line-height: 30px;
+
+			a {
+				color: white;
+				text-decoration: none;
+
+				&:visited {
+					color: white;
+				}
+
+				&:hover,
+				&.focus {
+					text-decoration: underline;
+				}
+			} // end of a
+		} // end of li
+	}// end of ul
+} // end of footer
