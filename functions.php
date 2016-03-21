@@ -45,6 +45,9 @@ function mspringer_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'mspringer' ),
+		'footer-left' => esc_html__( 'Footer-Left', 'mspringer' ),
+		'footer-center' => esc_html__( 'Footer-Center', 'mspringer' ),
+		'footer-right' => esc_html__( 'Footer-Right', 'mspringer' ),
 	) );
 
 	/*
