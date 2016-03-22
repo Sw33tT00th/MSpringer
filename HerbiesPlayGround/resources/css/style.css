@@ -87,7 +87,7 @@ line-height: 32px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/Users/dherbsta/MSpringer/HerbiesPlayGround/resources/img/girls.jpg);
     background-size: cover;
   color: #fff;
-     height:300px;
+     height:400px;
 /*    background-attachment: fixed;*/
 }
 .navbar{
@@ -95,26 +95,33 @@ position: fixed;
     
 }
 
-#main_menu{
+.nobanner{
+    display:none;
+}
+
+
+/*Main navi*/
+nav{
     text-transform: uppercase;
     margin: 0px;
       letter-spacing: 2px;
     overflow:auto;
    
    
+   
 }
-#main_menu.navbar-default .navbar-brand {
+nav.navbar-default .navbar-brand {
     color: rgba(119, 119, 119, 1);
 }
  
-#main_menu.navbar-default {
+nav.navbar-default {
 /*    font-size: 30px;*/
     background-color: rgba(0, 0, 0, 1);
     border-width: 0px;
     border-radius: 0px;
 }
  
-#main_menu.navbar-default .navbar-nav{
+nav.navbar-default .navbar-nav{
      float:none;
         margin: 0 auto;
         display: table;
@@ -122,7 +129,7 @@ position: fixed;
 }
  
 
-#main_menu.navbar-default .navbar-nav>li>a {
+nav.navbar-default .navbar-nav>li>a {
    
     font-size: 20px;
     font-family: "Gotham-Book";
@@ -135,21 +142,19 @@ position: fixed;
  
   
 }
-#main_menu.navbar-default .navbar-nav>li>a:hover,
-#main_menu.navbar-default .navbar-nav>li>a:focus {
+nav.navbar-default .navbar-nav>li>a:hover,
+nav.navbar-default .navbar-nav>li>a:focus {
     color: rgba(255, 255, 255, 1);
     background-color:  #49512F;
 ;
 }
-#main_menu.navbar-default .navbar-nav>.active>a,
-#main_menu.navbar-default .navbar-nav>.active>a:hover,
-#main_menu.navbar-default .navbar-nav>.active>a:focus {
+nav.navbar-default .navbar-nav>.active>a,
+nav.navbar-default .navbar-nav>.active>a:hover,
+nav.navbar-default .navbar-nav>.active>a:focus {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(94, 180, 255, 1);
 
 }
-
-
 
 
 .dropbtn {
@@ -210,10 +215,91 @@ li.dropdown {
 }
 
 
+/*peekaboo navi*/
+
+/*peekab navi*/
+.peekaboo{
+    text-transform: uppercase;
+    margin: 0px;
+      letter-spacing: 2px;
+    overflow:visible;
+   width: 100%;
+     z-index: 100; 
+   
+}
+.peekaboo.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+ 
+.peekaboo.navbar-default {
+/*    font-size: 30px;*/
+    background-color: rgba(0, 0, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+   
+   margin: 0 auto;
+    display: block;
+     position: fixed;
+    border-bottom: thick solid #687246;
+    box-shadow: 7px 4px 20px  black;
+     
+}
+ 
+.peekaboo.navbar-default .navbar-nav{
+     float:none;
+     table-layout: fixed;
+    display: table;
+        
+        
+  
+   
+}
+ 
+
+.peekaboo.navbar-default .navbar-nav>li>a {
+   
+    font-size: 20px;
+    font-family: "Gotham-Book";
+    padding-right: 50px;
+     padding-left: 50px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+    line-height: 35px;
+ 
+ 
+  
+}
+.peekaboo.navbar-default .navbar-nav>li>a:hover,
+.peekaboo.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color:  #49512F;
+;
+}
+.peekaboo.navbar-default .navbar-nav>.active>a,
+.peekaboo.navbar-default .navbar-nav>.active>a:hover,
+.peekaboo.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(94, 180, 255, 1);
+
+}
 
 
+.home {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    display: none;
+    
+}
 
-
+.logo {
+    position: fixed;
+    height: 100px;
+    width: auto;
+  z-index: 200;
+     box-shadow: 7px 4px 20px  black;
+    
+}
 h1 {
     font-weight: 300;
     padding-top: 40px;
@@ -271,6 +357,10 @@ p.bold{
     font-style: italic;
 }
 
+p.boldbold{
+     font-family: 'Gotham-Medium';
+}
+
 h3{
 
     
@@ -315,18 +405,267 @@ ul.sites>li{
 ul.sites>li>a{
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     
     
 }
 
 ul.sites>li>a:hover 
 {
-   
     text-decoration: underline;
-    
+}
+
+
+ul.contact{
+    font-size: 14px;
+}
+ul.contact li:first-child {
+  font-size: 16px;
+  line-height: 15px;
+}
+ul.contact>li{
+    list-style: none;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+ul.contact>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
     
     
 }
 
 
+
+section.eight-lives {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    margin-top: 30px;
+    width: 100%;
+   background-color: #474b5d;
+}
+
+.lives {
+    list-style: none;
+    width: 100%;
+}
+
+.lives li {
+    display: block;
+    float:left;
+   
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.survivor  {
+    width: 100%;
+    margin: 0;
+    overflow:visible;
+    text-align: center;
+    background-color: #474b5d;
+}
+
+.survivor img {
+    opacity: 1;
+    
+    width: 180px;
+    height: auto;
+    transform: scale(1.01);
+   
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.survivor img:hover {
+    opacity: 0.7;
+ 
+    transform: scale(1.30);
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* SIGN UP */
+/* ----------------------------------------------- */
+
+.student-quotes {
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+}
+
+.stage {
+    background-color: #5A2417;
+    border-radius: 2px;
+    width: 85%;
+    margin-left: 5%;
+    box-shadow: 0 3px 2px #efefef;
+    height: 420px;
+}
+
+.stage-heading {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+
+.stage p{
+     padding-right:15px;
+    padding-left:15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+
+/* ----------------------------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------------------------- */
+
+.section-testimonials {
+    height: 470px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Users/dherbsta/MSpringer/HerbiesPlayGround/resources/img/quotespics.jpg");
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+   
+}
+
+blockquote {
+     
+    font-style: italic;
+    line-height: 145%;
+    position: absolute;
+    margin-top: 40px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+   
+}
+
+.quotes{
+   margin-top: 10px; 
+    
+}
+
+blockquote:before {
+  
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+.quotes h2{
+     font-family: 'Gotham-Bold';
+    font-size: 36px;
+    word-spacing: 4px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+/* ----------------------------------------------- */
+/* traveling */
+/* ----------------------------------------------- */
+
+
+.tabs{
+    text-align: center;
+    border-radius:0; 
+    
+}
+ul.travel{
+    text-align: center;
+    border-radius:0; 
+    background-color:#4B6873;
+    display: inline-block;
+    
+    
+}
+
+ul.travel.active{
+    text-align: center;
+    border-radius:0; 
+    background-color: red;
+    display: inline-block;
+    
+}
+
+ul.travel>li{
+   font-family: 'Gotham-Book';
+    border: none;
+    border-radius:0;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+ul.travel>li a{
+   font-family: 'Gotham-Book';
+    font-size: 30px;
+    border-radius:0;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.tab-pane>h2{
+    font-family: 'Gotham-Bold';
+    text-align: center;
+    font-size: 45px;
+    word-spacing: 4px;
+    
+    font-weight: bold;
+    letter-spacing: 4px;
+}
