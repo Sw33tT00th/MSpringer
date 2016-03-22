@@ -12,27 +12,27 @@ Darker green color #49512F
 
 @font-face {
     font-family: Gotham-Book;
-    src: url('resources/fonts/Gotham-Book.otf');
+    src: url('../fonts/Gotham-Book.otf');
     font-style: normal;
 }
 @font-face {
     font-family: Gotham-Bold;
-    src: url('resources/fonts/Gotham-Bold.otf');
+    src: url('../fonts/Gotham-Bold.otf');
     font-weight: bold;
 }
 @font-face {
     font-family: Gotham-BookItalic;
-    src: url('resources/fonts/Gotham-BookItalic.otf');
+    src: url('../fonts/Gotham-BookItalic.otf');
     font-style: italic;
 }
 @font-face {
     font-family: Gotham-Medium;
-    src: url('resources/fonts/Gotham-Medium.otf');
+    src: url('../fonts/Gotham-Medium.otf');
     font-weight: 200;
 }
 @font-face {
     font-family: Gotham-MediumiTalic;
-    src: url('resources/fonts/Gotham-MediumItalic.otf');
+    src: url('../fonts/Gotham-MediumItalic.otf');
     font-weight: 200;
     font-style: italic;
 }
@@ -84,7 +84,7 @@ line-height: 32px;
 .banner{
     
     background-color: yellow;   
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/Users/dherbsta/MSpringer/HerbiesPlayGround/resources/img/girls.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/girls.jpg);
     background-size: cover;
   color: #fff;
      height:400px;
@@ -377,7 +377,7 @@ h3.center{
 
 .bedzinpic {
     margin: 20px 0 20px 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/Users/dherbsta/MSpringer/HerbiesPlayGround/resources/img/bedzinexhibit.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/bedzinexhibit.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;

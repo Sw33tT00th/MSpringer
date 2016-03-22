@@ -6,7 +6,8 @@
  *
  * @package MSpringer
  */
-
+//update_option( 'siteurl', 'http://localhost/wordpress' );
+//update_option( 'home', 'http://localhost/wordpress' );
 if ( ! function_exists( 'mspringer_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -45,6 +46,9 @@ function mspringer_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'mspringer' ),
+		'footer-left' => esc_html__( 'Footer-Left', 'mspringer' ),
+		'footer-center' => esc_html__( 'Footer-Center', 'mspringer' ),
+		'footer-right' => esc_html__( 'Footer-Right', 'mspringer' ),
 	) );
 
 	/*

@@ -1,5 +1,13 @@
 p {
-	margin-bottom: 1.5em;
+	font-size: 18px;
+	color: #303030;
+	line-height: 32px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+p.center {
+	text-align: center;
 }
 
 dfn, cite, em, i {

@@ -1,8 +1,14 @@
+header > .container-fluid {
+	background-color: #030303;
+}
+
 .main-navigation {
+	letter-spacing: 2px;
 	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+	float: none;
+	margin: 0 auto;
+	max-width: 528px;
+	position: relative;
 
 	ul {
 		display: none;
@@ -12,9 +18,8 @@
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
 			position: absolute;
-			top: 1.5em;
+			top: 70px;
 			left: -999em;
 			z-index: 99999;
 
@@ -28,14 +33,22 @@
 				&.focus > ul {
 					left: 100%;
 				}
+				border-width: 0 0 0 0;
+				padding: 0;
+
+				&:first-child {
+					border-width: 0;
+				}
 			}
 
 			a {
-				width: 200px;
+				width: 300px;
 			}
 
 			:hover > a,
 			.focus > a {
+				color: white;
+				background-color: #687246;
 			}
 
 			a:hover,
@@ -45,7 +58,24 @@
 
 		li:hover > ul,
 		li.focus > ul {
-			left: auto;
+			left: 0px;
+		}
+
+		li {
+
+			a {
+				padding-right: 15px;
+				padding-left: 15px;
+			}
+
+			&:first-child {
+				border-width: 0 2px 0 2px;
+			}
+
+			&:hover,
+			&.focus {
+				background-color: #687246;
+			}
 		}
 	}
 	
@@ -67,6 +97,50 @@
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
+	}
+}
+
+.menu-main-menu-container {}
+
+#primary-menu {
+	text-align: left;
+
+	li {
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-size: 20px;
+		text-transform: uppercase;
+		color: white;
+		background-color: #030303;
+		&.focus,
+		&:hover {
+			color: white;
+			background-color: #687246;
+		}
+		a {
+			color: inherit;
+			background-color: inherit;
+		}
+	}
+
+	ul {
+		li {
+			padding: 0;
+			color: #030303;
+			background-color: #f9f9f9;
+			&.focus,
+			&:hover {
+				color: white;
+				background-color: #687246;
+			}
+			a {
+				padding: 12px 16px;
+				font-size: 14px;
+				text-transform: none;
+				color: inherit;
+				background-color: inherit;
+			}
+		}
 	}
 }
 
@@ -105,3 +179,46 @@
 		width: 50%;
 	}
 }
+
+/*--------------------------------------------------------
+# Footer
+--------------------------------------------------------*/
+.site-footer {
+	padding: 30px 0;
+	color: white;
+	background-color: #687246;
+	font-size: 16px;
+
+	a:hover,
+	a.focus {
+		color: white;
+	}
+
+	p {
+		color: white;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+
+		li {
+			letter-spacing: 2px;
+			line-height: 30px;
+
+			a {
+				color: white;
+				text-decoration: none;
+
+				&:visited {
+					color: white;
+				}
+
+				&:hover,
+				&.focus {
+					text-decoration: underline;
+				}
+			} // end of a
+		} // end of li
+	}// end of ul
+} // end of footer

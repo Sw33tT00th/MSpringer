@@ -1,3 +1,11 @@
+html,
+body {
+    background-color: #fff;
+    color: black;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
 #page > header {
 	width: 100%;
 }

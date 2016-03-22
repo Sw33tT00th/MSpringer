@@ -14,14 +14,24 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<nav>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav>
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mspringer' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'mspringer' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'mspringer' ), 'mspringer', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<p>EXHIBIT</p>
+					<?php wp_nav_menu( array( 'theme_location' => 'footer-left' ) ); ?>
+				</div>
+				<div class="col-md-3">
+					<p>HISTORY</p>
+					<?php wp_nav_menu( array( 'theme_location' => 'footer-center' ) ); ?>
+				</div>
+				<div class="col-md-3">
+					<p>RESOURCES</p>
+					<?php wp_nav_menu( array( 'theme_location' => 'footer-right' ) ); ?>
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
