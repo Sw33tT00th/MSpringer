@@ -45,190 +45,146 @@ get_header(); ?>
             </div>
 			<div class="container-fluid hidden-md hidden-sm" id="eight-lives-home">
 				<div class="row">
-					<ul>
-						<li class="slide1">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/Arnold_Shay_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Arnold Shay</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide2">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/doris_martin_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Doris Martin</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide3">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/ella_libermann-shiber_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Ella Liebermann-Shiber</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide4">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/hadassa_border_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Hadassa Broder</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-					</ul>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/Arnold_Shay_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Arnold Shay</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/doris_martin_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Doris Martin</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/ella_libermann-shiber_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Ella Liebermann-Shiber</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/hadassa_border_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Hadassa Broder</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 				<div class="row">
-					<ul>
-						<li class="slide5">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/jane_lipski_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Jane Lipski</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide6">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/Rose_rechnic_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Rose Rechnic</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide7">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/rutka_laskier_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Rutka Laskier</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide8">
-							<div class="col-lg-3 col-sm-12">
-								<figure>
-									<img src="wp-content/uploads/2016/04/sam_pivnik_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Sam Pivnik</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-					</ul>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/jane_lipski_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Jane Lipski</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/Rose_rechnic_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Rose Rechnic</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/rutka_laskier_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Rutka Laskier</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<figure>
+							<img src="wp-content/uploads/2016/04/sam_pivnik_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Sam Pivnik</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 			</div>
 			<div class="container-fluid hidden-lg hidden-xs hidden-xl" id="eight-lives-home">
 				<div class="row">
-					<ul>
-						<li class="slide1">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/Arnold_Shay_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Arnold Shay</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide2">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/doris_martin_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Doris Martin</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-					</ul>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/Arnold_Shay_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Arnold Shay</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/doris_martin_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Doris Martin</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 				<div class="row">
-					<ul>
-						<li class="slide3">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/ella_libermann-shiber_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Ella Liebermann-Shiber</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide4">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/hadassa_border_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Hadassa Broder</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-					</ul>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/ella_libermann-shiber_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Ella Liebermann-Shiber</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/hadassa_border_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Hadassa Broder</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 				<div class="row">
-					<ul>
-						<li class="slide5">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/jane_lipski_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Jane Lipski</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide6">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/Rose_rechnic_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Rose Rechnic</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-					</ul>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/jane_lipski_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Jane Lipski</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/Rose_rechnic_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Rose Rechnic</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 				<div class="row">
-					<ul>
-						<li class="slide7">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/rutka_laskier_24.png" alt="" class="img-responsive lives" />
-									<figcaption>
-										<p>Rutka Laskier</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-						<li class="slide8">
-							<div class="col-md-6 col-sm-6">
-								<figure>
-									<img src="wp-content/uploads/2016/04/sam_pivnik_24.png" alt="" class="img-responsive" lives />
-									<figcaption>
-										<p>Sam Pivnik</p>
-									</figcaption>
-								</figure>
-							</div>
-						</li>
-					</ul>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/rutka_laskier_24.png" alt="" class="img-responsive lives" />
+							<figcaption>
+								<p>Rutka Laskier</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<figure>
+							<img src="wp-content/uploads/2016/04/sam_pivnik_24.png" alt="" class="img-responsive" lives />
+							<figcaption>
+								<p>Sam Pivnik</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
 			</div>
 
