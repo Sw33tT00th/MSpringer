@@ -7,3 +7,35 @@
 	height: 400px;
 	width: inherit;
 }
+
+#eight-lives-home {
+	padding-top: 30px;
+	background-color: #474b5d;
+	margin: 10px 0;
+
+	ul {
+		li {
+			list-style-type: none;
+
+			figure {
+				display: inline-block
+
+				img {
+					vertical-align: top;
+				} // end of img
+
+				figcaption {
+					text-align: center;
+
+					p {
+						color: white;
+					} // end of p
+				} // end of figcaption
+			} // end of figure
+		} // end of li
+	} // end of ul
+} // end of #eight-lives-home
+
+.lives {
+	width: 100%;
+}

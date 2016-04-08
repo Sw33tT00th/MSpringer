@@ -9,6 +9,12 @@ textarea {
 	line-height: $font__line-height-body;
 }
 
+.reverse-text {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: left;
+}
+
 @import "headings";
 
 @import "copy";

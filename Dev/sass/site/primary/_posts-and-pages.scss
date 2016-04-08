@@ -6,6 +6,11 @@ body {
     overflow-x: hidden;
 }
 
+header > hr {
+	height: 4px;
+	background-color: #687246;
+}
+
 #page > header {
 	width: 100%;
 }
@@ -37,4 +42,12 @@ body {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+#contact-info {
+	ul {
+		li {
+			list-style-type: none;
+		}
+	}
 }

@@ -7,6 +7,17 @@
 	padding: 0;
 }
 
+@media (max-width: 767px) {
+	img {
+		width: 100% !important;
+	}
+
+	figure { 
+		width: 100% !important;
+		margin: 1em 0 !important;
+	}
+}
+
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,

@@ -221,4 +221,10 @@ header > .container-fluid {
 			} // end of a
 		} // end of li
 	}// end of ul
+
+	@media (max-width: 767px) {
+		.row > div {
+			margin-bottom: 30px;
+		}
+	}
 } // end of footer
