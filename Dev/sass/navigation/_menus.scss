@@ -2,6 +2,18 @@ header > .container-fluid {
 	background-color: #030303;
 }
 
+.sticky-nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+
+.banner-margin {
+	margin-bottom: 70px;
+}
+
 .main-navigation {
 	letter-spacing: 2px;
 	clear: both;
