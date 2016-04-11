@@ -447,7 +447,7 @@ ul.contact>li>a{
 section.eight-lives {
   
     width: 100%;
-    height: 600px;
+    height: 400px;
    background-color: #474b5d;
 }
 
@@ -456,7 +456,21 @@ section.eight-lives {
     width: 100%;
 }
 
+.lives2 {
+    list-style: none;
+    width: 100%;
+}
+
 .lives li {
+    display: block;
+    float:left;
+   
+    width: 25%;
+/*    margin-top: 20px;*/
+/*    margin-bottom: 10px;*/
+}
+
+.lives2 li {
     display: block;
     float:left;
    
@@ -479,9 +493,41 @@ section.eight-lives {
 	z-index: 100;
 }
 
+
+.lives2 figcaption {
+	
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
 .lives li:hover figcaption {
 	opacity: 1;
 }
+
+.lives2 li:hover figcaption {
+	opacity: 1;
+}
+.lives2 figcaption p {
+	display: table-cell;
+	
+	position: relative;
+	
+	width: 50%;
+	vertical-align: middle;
+    color: white;
+     
+    font-size: 20px;
+    line-height: 50px;
+    font-family: 'Gotham-Medium';
+    padding-bottom: 20px;
+}
+
 .lives figcaption p {
 	display: table-cell;
 	
