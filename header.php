@@ -29,7 +29,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding container-fluid banner">
 			<div class="container">
-                <h2 class="top"> Through the Eyes of the Youth: </h2>
+                <h2 class="top"> Through the Eyes of Youth: </h2>
                 <h2 class="bottom">Life and Death in the B&#281;dzin Ghetto</h2>
             </div>
 		</div><!-- .site-branding -->
