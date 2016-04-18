@@ -8,7 +8,7 @@
  */
 
 ?>
-<!-- Start of content-none.php -->
+<!-- start of content-glossary.php -->
 <section class="no-results not-found">
 	<header class="page-header">
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'mspringer' ); ?></h1>
@@ -35,4 +35,4 @@
 		endif; ?>
 	</div><!-- .page-content -->
 </section><!-- .no-results -->
-<!-- End of content-none.php -->
+<!-- end of content-glossary.php -->

@@ -8,7 +8,7 @@
  */
 
 ?>
-
+<!-- Start of content-home.php -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<div class="entry-content">
@@ -38,3 +38,4 @@
 		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+<!-- End of content-home.php -->
