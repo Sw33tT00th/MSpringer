@@ -35,15 +35,13 @@
 					<ul>
 						<li><strong>Contact Information</strong></li>
 						<li>&nbsp;</li>
-						<li><strong>Bjorn Krondorfer</strong></li>
-						<li>Director</li>
+						<li><strong>Bjorn Krondorfer</strong>, Director</li>
 						<li>Phone: <span class="reverse-text">9205-325-829</span></li>
-						<li>Email: <span class="reverse-text">ude.uan@refrodnork.nrojb</span></li>
+						<li><span class="reverse-text">ude.uan@refrodnork.nrojb</span></li>
 						<li>&nbsp;</li>
 						<li><strong>Melissa Cohen</strong></li>
-						<li>Program Coordinator</li>
 						<li>Phone: <span class="reverse-text">4642-325-829</span></li>
-						<li>Email: <span class="reverse-text">ude.uan@nehoc.assilem</span></li>
+						<li><span class="reverse-text">ude.uan@nehoc.assilem</span></li>
 					</ul>
 					<a href="https://www.facebook.com/MSIatNAU" target="_blank" class="hidden-sm hidden-md hidden-lg hidden-xl" title="Martin Springer Institute Facebook Page">
 						<div id="footer-facebook"></div>
@@ -75,15 +73,13 @@
 					<ul>
 						<li><strong>Contact Information</strong></li>
 						<li>&nbsp;</li>
-						<li><strong>Bjorn Krondorfer</strong></li>
-						<li>Director</li>
+						<li><strong>Bjorn Krondorfer</strong>, Director</li>
 						<li>Phone: <span class="reverse-text">9205-325-829</span></li>
-						<li>Email: <span class="reverse-text">ude.uan@refrodnork.nrojb</span></li>
+						<li><span class="reverse-text">ude.uan@refrodnork.nrojb</span></li>
 						<li>&nbsp;</li>
 						<li><strong>Melissa Cohen</strong></li>
-						<li>Program Coordinator</li>
 						<li>Phone: <span class="reverse-text">4642-325-829</span></li>
-						<li>Email: <span class="reverse-text">ude.uan@nehoc.assilem</span></li>
+						<li><span class="reverse-text">ude.uan@nehoc.assilem</span></li>
 					</ul>
 				</div>
 			</div>
