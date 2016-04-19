@@ -46,7 +46,7 @@ get_header(); ?>
 			<div class="container-fluid hidden-md hidden-sm" id="eight-lives-home">
 				<div class="row">
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/arnold-shay/">
+						<a href="/wordpress/index.php/arnold-shay/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/Arnold_Shay_24-223x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -56,7 +56,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/doris-martin/">
+						<a href="/wordpress/index.php/doris-martin/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/doris_martin_24-236x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -66,7 +66,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/ella-liebermann-shiber/">
+						<a href="/wordpress/index.php/ella-liebermann-shiber/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/ella_libermann-shiber_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -76,7 +76,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/hadassa-broder/">
+						<a href="/wordpress/index.php/hadassa-broder/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/hadassa_border_24-222x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -88,7 +88,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/jane-lipski/">
+						<a href="/wordpress/index.php/jane-lipski/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/jane_lipski_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -98,7 +98,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/rose-rechnic/">
+						<a href="/wordpress/index.php/rose-rechnic/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/Rose_rechnic_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -108,7 +108,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/rutka-laskier">
+						<a href="/wordpress/index.php/rutka-laskier">
 							<figure>
 								<img src="wp-content/uploads/2016/04/rutka_laskier_24-250x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -118,7 +118,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/wordpress/sam-pivnik">
+						<a href="/wordpress/index.php/sam-pivnik">
 							<figure>
 								<img src="wp-content/uploads/2016/04/sam_pivnik_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -132,7 +132,7 @@ get_header(); ?>
 			<div class="container-fluid hidden-lg hidden-xs hidden-xl" id="eight-lives-home">
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/arnold-shay/">
+						<a href="/wordpress/index.php/arnold-shay/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/Arnold_Shay_24-223x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -142,7 +142,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/doris-martin/">
+						<a href="/wordpress/index.php/doris-martin/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/doris_martin_24-236x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -154,7 +154,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/ella-liebermann-shiber/">
+						<a href="/wordpress/index.php/ella-liebermann-shiber/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/ella_libermann-shiber_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -164,7 +164,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/hadassa-broder/">
+						<a href="/wordpress/index.php/hadassa-broder/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/hadassa_border_24-222x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -176,7 +176,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/jane-lipski/">
+						<a href="/wordpress/index.php/jane-lipski/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/jane_lipski_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -186,7 +186,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/rose-rechnic/">
+						<a href="/wordpress/index.php/rose-rechnic/">
 							<figure>
 								<img src="wp-content/uploads/2016/04/Rose_rechnic_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -198,7 +198,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/rutka-laskier">
+						<a href="/wordpress/index.php/rutka-laskier">
 							<figure>
 								<img src="wp-content/uploads/2016/04/rutka_laskier_24-250x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -208,7 +208,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/wordpress/sam-pivnik">
+						<a href="/wordpress/index.php/sam-pivnik">
 							<figure>
 								<img src="wp-content/uploads/2016/04/sam_pivnik_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
