@@ -13,6 +13,13 @@
 	background-color: #474b5d;
 	margin: 10px 0;
 
+	a {
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+
 	figure {
 		display: inline-block
 
