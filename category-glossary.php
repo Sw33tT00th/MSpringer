@@ -32,21 +32,19 @@ get_header(); ?>
 			<div class="col-md-8">
 			<?php
 
+			query_posts( array ( 'category_name' => 'glossary', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
+			/* Start the Loop */
+			while ( have_posts() ) : the_post();
 
-						query_posts( array ( 'category_name' => 'glossary', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
-						/* Start the Loop */
-						while ( have_posts() ) : the_post();
+				$title = get_the_title();
+				$link = get_the_permalink();
+				$letter = substr($title, 0, 1);
+				$all_letters[$counter] = $letter;
+				$all_titles[$counter] = $title;
+				$all_links[$counter] = $link;
+				$counter += 1;
 
-							$title = get_the_title();
-							$link = get_the_permalink();
-							$letter = substr($title, 0, 1);
-							$all_letters[$counter] = $letter;
-							$all_titles[$counter] = $title;
-							$all_links[$counter] = $link;
-							$counter += 1;
-
-						endwhile; 
-
+			endwhile; 
 
 			$used_letters = array();
 			for ($i = 0; $i < count($all_titles); $i += 1) {
