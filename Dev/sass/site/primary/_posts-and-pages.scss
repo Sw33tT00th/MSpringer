@@ -44,6 +44,16 @@ header > hr {
 	margin: 0 0 1.5em;
 }
 
+h1.entry-title:after{
+	display: block;
+    height: 4px;
+    background-color: #687246;
+    content: " ";
+    width:100%;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
 #contact-info {
 	ul {
 		li {

@@ -22,7 +22,7 @@ get_header(); ?>
 			<header class="page-header">
 				<h1 class="page-title">Glossary</h1>
 			</header><!-- .page-header -->
-
+			<div class="col-md-8">
 			<?php
 
 			query_posts( array ( 'category_name' => 'glossary', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
@@ -60,6 +60,11 @@ get_header(); ?>
 		endif;
 
 		 ?>
+		 </div>
+		 <div class="col-md-4">
+		 	
+		 </div>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
