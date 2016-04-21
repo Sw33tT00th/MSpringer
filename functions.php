@@ -6,8 +6,8 @@
  *
  * @package MSpringer
  */
-//update_option( 'siteurl', 'http://localhost/wordpress' );
-//update_option( 'home', 'http://localhost/wordpress' );
+// update_option( 'siteurl', 'http://localhost/' );
+// update_option( 'home', 'http://localhost/' );
 if ( ! function_exists( 'mspringer_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.

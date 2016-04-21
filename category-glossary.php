@@ -43,25 +43,27 @@ get_header(); ?>
 			for ($i = 0; $i < count($all_titles); $i += 1) {
 				# Only add new letters to list
 				if(!in_array($all_letters[$i], $used_letters)) {
-					if($i != 0) {
-						echo '<hr />';
-					}
-					echo '<h3>' . $all_letters[$i] . '</h3>';
+					echo '<h3 class="glossary-letters">' . $all_letters[$i] . '</h3>';
 					array_push($used_letters, $all_letters[$i]);
 				}
 				# Add every post link
 				echo '<a class="aggregated-link" href="' . $all_links[$i] . '" title="' . $all_titles[$i] . '">' . $all_titles[$i] . '</a><br />';
 			}
+			echo '<div class="space"><div>';
 			
 			wp_reset_query();
+
 		else :
 
 			get_template_part( 'template-parts/content', 'none' );
 
-		endif; ?>
+		endif;
+
+		 ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
 	<!-- End of category-glossary.php -->
 <?php
 get_sidebar();
