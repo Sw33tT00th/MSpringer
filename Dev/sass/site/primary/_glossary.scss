@@ -1,0 +1,39 @@
+h3.glossary-letters{
+  
+    font-size: 30px;
+    word-spacing: 4px;
+    text-align: left;
+    font-family: 'Gotham-Book';
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+
+h3.glossary-letters:after {
+    display: block;
+    height: 4px;
+    background-color: #687246;
+    content: " ";
+    width:100%;
+    margin: 0 auto;
+    margin-top: 6px;
+  
+}
+
+a.aggregated-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+a.aggregated-link:hover{
+   text-decoration: underline;
+}
+
+.space{
+    height: 40px;
+    width: 1px;
+}
+
+
