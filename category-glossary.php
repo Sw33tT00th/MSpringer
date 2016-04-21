@@ -10,14 +10,21 @@
 get_header(); ?>
 	<!-- Start of category-glossary.php -->
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main container" role="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<?php get_sidebar(); ?>
+				</div>
+				<div class="col-md-9">
+					<main id="main" class="site-main container" role="main">
 
-		<?php
-		$all_letters = array();
-		$all_titles = array();
-		$all_links = array();
-		$counter = 0;
-		if ( have_posts() ) : ?>
+					<?php
+					$all_letters = array();
+					$all_titles = array();
+					$all_links = array();
+					$counter = 0;
+					if ( have_posts() ) : ?>
+
 
 			<header class="page-header">
 				<h1 class="page-title">Glossary</h1>
@@ -25,19 +32,21 @@ get_header(); ?>
 			<div class="col-md-8">
 			<?php
 
-			query_posts( array ( 'category_name' => 'glossary', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
 
-				$title = get_the_title();
-				$link = get_the_permalink();
-				$letter = substr($title, 0, 1);
-				$all_letters[$counter] = $letter;
-				$all_titles[$counter] = $title;
-				$all_links[$counter] = $link;
-				$counter += 1;
+						query_posts( array ( 'category_name' => 'glossary', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
+						/* Start the Loop */
+						while ( have_posts() ) : the_post();
 
-			endwhile; 
+							$title = get_the_title();
+							$link = get_the_permalink();
+							$letter = substr($title, 0, 1);
+							$all_letters[$counter] = $letter;
+							$all_titles[$counter] = $title;
+							$all_links[$counter] = $link;
+							$counter += 1;
+
+						endwhile; 
+
 
 			$used_letters = array();
 			for ($i = 0; $i < count($all_titles); $i += 1) {
@@ -55,7 +64,9 @@ get_header(); ?>
 
 		else :
 
-			get_template_part( 'template-parts/content', 'none' );
+
+						get_template_part( 'template-parts/content', 'none' );
+
 
 		endif;
 
@@ -66,10 +77,13 @@ get_header(); ?>
 		 </div>
 
 
-		</main><!-- #main -->
+
+					</main><!-- #main -->
+				</div>
+			</div>
+		</div>
 	</div><!-- #primary -->
 
 	<!-- End of category-glossary.php -->
 <?php
-get_sidebar();
 get_footer();
