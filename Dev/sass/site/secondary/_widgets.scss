@@ -6,3 +6,47 @@
 		max-width: 100%;
 	}
 }
+
+@media screen and (max-width: 991px) {
+	.widget-area {
+		display: none;
+	}
+}
+
+.widget-title:after {
+	display: block;
+	height: 2px;
+	background-color: #687246;
+	content: " ";
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+
+.widget-area {
+
+	a {
+		color: black;
+		font-size: 18px;
+
+		&:hover,
+		&:focus {
+			opacity: 0.7;
+			text-decoration: none;
+		}
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+}
+
+.sticky-sidebar {
+	position: fixed;
+	top: 70px;
+}
+
+@media screen and (max-width: 991px) {
+	top: 40px;
+}
