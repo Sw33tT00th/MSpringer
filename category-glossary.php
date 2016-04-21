@@ -16,7 +16,7 @@ get_header(); ?>
 					<?php get_sidebar(); ?>
 				</div>
 				<div class="col-md-9">
-					<main id="main" class="site-main container" role="main">
+					<main id="main" class="site-main" role="main">
 
 					<?php
 					$all_letters = array();
@@ -26,9 +26,9 @@ get_header(); ?>
 					if ( have_posts() ) : ?>
 
 
-			<header class="page-header">
-				<h1 class="page-title">Glossary</h1>
-			</header><!-- .page-header -->
+						<header class="page-header">
+							<h1 class="page-title">Glossary</h1>
+						</header><!-- .page-header -->
 			<div class="col-md-8">
 			<?php
 
