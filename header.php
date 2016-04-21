@@ -36,8 +36,14 @@
 
 		<div class="container-fluid" id="nav-container">
 			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mspringer' ); ?></button>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				<button id="main-menu-toggle" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="hidden-xs"><?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?></div>
+				<div class="hidden-sm hidden-md hidden-lg hidden-xl"><?php wp_nav_menu( array( 'theme_location' => 'primary-mobile', 'menu_id' => 'primary-menu-mobile' ) ); ?></div>
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->

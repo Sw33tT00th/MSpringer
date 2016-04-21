@@ -49,6 +49,7 @@ function mspringer_setup() {
 		'footer-left' => esc_html__( 'Footer-Left', 'mspringer' ),
 		'footer-center' => esc_html__( 'Footer-Center', 'mspringer' ),
 		'footer-right' => esc_html__( 'Footer-Right', 'mspringer' ),
+		'primary-mobile' => esc_html__( 'Primary-Mobile', 'mspringer' )
 	) );
 
 	/*
