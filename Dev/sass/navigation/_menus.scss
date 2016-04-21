@@ -33,119 +33,43 @@ header > .container-fluid {
 ********************************************************/
 @media screen and (max-width: 767px) {
 
-	.main-navigation {
-
-		ul {
-
-			ul {
-				
-
-				ul {
-					
-				}
-
-				li {
-					&:hover > ul,
-					&.focus > ul {
-						
-					}
-					
-
-					&:first-child {
-						
-					}
-				}
-
-				a {
-					
-				}
-
-				:hover > a,
-				.focus > a {
-					
-				}
-
-				a:hover,
-				a.focus {
-				}
-			}
-
-			li:hover > ul,
-			li.focus > ul {
-				
-			}
-
-			li {
-
-				a {
-					
-				}
-
-				&:first-child {
-					
-				}
-
-				&:hover,
-				&.focus {
-					
-				}
-			}
-		}
-		
-		li {
-			
-
-			&:hover > a,
-			&.focus > a {
-			}
-		}
-		
-		a {
-			
-		}
-
-		.current_page_item > a,
-		.current-menu-item > a,
-		.current_page_ancestor > a,
-		.current-menu-ancestor > a {
-		}
-	}
-
-
-
 	#primary-menu-mobile {
 		text-align: left;
 		font-family: Gotham-Book;
 		display: none;
+		font-size: 27px;
 
-		li {
-			
-
-			&.focus,
-			&:hover {
-				
+		.menu-item-has-children {
+			a:hover,
+			a:focus {
+				opacity: 1;
+				text-decoration: none !important;
+				cursor: default;
 			}
-			a {
-				
+
+			ul > li > a:hover,
+			ul > li > a:focus {
+				opacity: 0.8;
+				cursor: pointer;
+			}
+		}
+
+		a {
+			color: white;
+
+			&:hover,
+			&:focus {
+				opacity: 0.8;
+				text-decoration: none;
 			}
 		}
 
 		ul {
 			-webkit-padding-start: 0;
-			padding: 0;
+			padding-left: 0;
 			list-style-type: none;
-
-			li {
-				
-
-				&.focus,
-				&:hover {
-					
-				}
-				a {
-					
-				}
-			}
+			margin-left: 5;
+			font-size: 18px;
 		}
 	}
 
