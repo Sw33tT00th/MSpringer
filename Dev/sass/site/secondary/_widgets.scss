@@ -47,6 +47,7 @@
 	top: 70px;
 }
 
-@media screen and (max-width: 991px) {
-	top: 40px;
+.static-sidebar-bottom {
+	position: absolute;
+	bottom: 0;
 }
