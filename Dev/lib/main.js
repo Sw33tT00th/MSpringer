@@ -1,6 +1,6 @@
 var width = window.innerWidth;
 var height = document.body.clientHeight;
-var sidebarSpace = height - ($('.site-footer').outerHeight(true) + $('.site-header').outerHeight(true) + 50);
+var sidebarSpace = height - ($('.site-footer').outerHeight(true) + $('.site-header').outerHeight(true) + 14);
 var bottomBreak = height - ($('.site-footer').outerHeight(true) + $('.widget-area').outerHeight(true)) - 115;
 
 $('#main-menu-toggle').click(function() {
