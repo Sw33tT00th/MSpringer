@@ -21,6 +21,7 @@ get_header(); ?>
 				<div id="sidebar">
 					<?php get_sidebar(); ?>
 				</div>
+				<button class="btn btn-default hidden-md hidden-lg hidden-xl" id="sidebar-button">>></button>
 				<div class="col-md-9">
 					<main id="main" class="site-main" role="main">
 
