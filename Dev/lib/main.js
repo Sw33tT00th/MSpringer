@@ -8,8 +8,22 @@ $('#main-menu-toggle').click(function() {
 });
 
 $(document).ready(function() {
-	if(width >= 768) {
+	if(width >= 992) {
 		$('.widget-area').width($('.widget-area').parent().width());
+		if($(window).scrollTop() >= 300 && $(window).scrollTop() < bottomBreak) {
+			$('.widget-area').width($('.widget-area').parent().width());
+			$('.widget-area').addClass('sticky-sidebar');
+			$('.widget-area').removeClass('static-sidebar-bottom');
+			$('#sidebar').removeAttr('height');
+		} else if ($(window).scrollTop() >= bottomBreak) {
+			$('.widget-area').removeClass('sticky-sidebar');
+			$('.widget-area').addClass('static-sidebar-bottom');
+			$('#sidebar').height(sidebarSpace);
+		} else {
+			$('.widget-area').removeClass('sticky-sidebar');
+			$('.widget-area').removeClass('static-sidebar-bottom');
+			$('#sidebar').removeAttr('height');
+		}
 	}
 
 	if(width >= 480) {
@@ -22,7 +36,7 @@ $(document).ready(function() {
         }
 	}
 
-	if(width >= 768) {
+	if(width >= 992) {
 		if($(this).scrollTop() >= 300 && $(this).scrollTop() < bottomBreak) {
 			$('.widget-area').width($('.widget-area').parent().width());
 			$('.widget-area').addClass('sticky-sidebar');
@@ -42,8 +56,22 @@ $(document).ready(function() {
 
 window.onresize = function(event) {
 	width = window.innerWidth;
-	if(width >= 768) {
+	if(width >= 992) {
 		$('.widget-area').width($('.widget-area').parent().width());
+		if($(window).scrollTop() >= 300 && $(window).scrollTop() < bottomBreak) {
+			$('.widget-area').width($('.widget-area').parent().width());
+			$('.widget-area').addClass('sticky-sidebar');
+			$('.widget-area').removeClass('static-sidebar-bottom');
+			$('#sidebar').removeAttr('height');
+		} else if ($(window).scrollTop() >= bottomBreak) {
+			$('.widget-area').removeClass('sticky-sidebar');
+			$('.widget-area').addClass('static-sidebar-bottom');
+			$('#sidebar').height(sidebarSpace);
+		} else {
+			$('.widget-area').removeClass('sticky-sidebar');
+			$('.widget-area').removeClass('static-sidebar-bottom');
+			$('#sidebar').removeAttr('height');
+		}
 	}
 }
 
@@ -62,7 +90,7 @@ $(function(){
 });
 
 $(function(){
-	if(width >= 768) {
+	if(width >= 992) {
 		$(window).scroll(function() {
 			if($(this).scrollTop() >= 300 && $(this).scrollTop() < bottomBreak) {
 				$('.widget-area').width($('.widget-area').parent().width());
