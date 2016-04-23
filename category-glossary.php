@@ -12,7 +12,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<div class="container">
 			<div class="row">
-				<div id="sidebar" class="col-md-3">
+				<div id="sidebar">
 					<?php get_sidebar(); ?>
 				</div>
 				<div class="col-md-9">

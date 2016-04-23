@@ -7,6 +7,17 @@
 	}
 }
 
+@media screen and (min-width: 992px) {
+	#sidebar {
+		width: 25%;
+		float: left;
+		position: relative;
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
 @media screen and (max-width: 991px) {
 	#sidebar {
 		display: none;
