@@ -84,10 +84,6 @@ window.onresize = function(event) {
 			$('.widget-area').removeClass('static-sidebar-bottom');
 			$('#sidebar').removeAttr('height');
 		}
-	} else {
-		$('#sidebar').removeClass('sidebar-show');
-		$('#sidebar-button').removeClass('sidebar-button-toggled');
-		$('#sidebar-button').text('>>');
 	}
 }
 
