@@ -69,6 +69,9 @@ $(document).ready(function() {
 window.onresize = function(event) {
 	width = window.innerWidth;
 	if(width >= 992) {
+		$('#sidebar').removeClass('sidebar-show');
+		$('#sidebar-button').removeClass('sidebar-button-toggled');
+		$('#sidebar-button').text('>>');
 		$('.widget-area').width($('.widget-area').parent().width());
 		if($(window).scrollTop() >= 300 && $(window).scrollTop() < bottomBreak) {
 			$('.widget-area').width($('.widget-area').parent().width());
