@@ -77,7 +77,7 @@ get_header(); ?>
 							$counter = 0;
 							$all_titles = array();
 							$all_links = array();
-							query_posts( array ( 'category_name' => 'people', 'posts_per_page' => -1 ) );
+							query_posts( array ( 'category_name' => 'people', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
 							while( have_posts() ) : the_post();
 
 								$title = get_the_title();
