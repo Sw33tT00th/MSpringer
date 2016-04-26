@@ -221,7 +221,7 @@ get_header(); ?>
 			</div>
 
 	        <div class="container">
-	            <p>The exhibit can be requested from the Martin-Springer Institute for educational and community organizations, libraries, and other public venues. The traveling exhibit and the online version are made possible through the Martin-Springer Institute at Northern Arizona University under the directorship of Dr. Bj&ouml;rn Krondorfer. The Martin-Springer Institute was founded in 2000 by Doris and Ralph Martin. Doris born Dora Szpringer grew up in B&#281;dzin. Miraculously, she and her whole family survived the Holocaust.
+	            <p>The exhibit can be requested from the Martin-Springer Institute for educational and community organizations, libraries, and other public venues. The traveling exhibit and the online version are made possible through the Martin-Springer Institute at Northern Arizona University under the directorship of Dr. Bj&ouml;rn Krondorfer. The Martin-Springer Institute was founded in 2000 by Doris and Ralph Martin. Doris, born Dora Szpringer, grew up in B&#281;dzin. Miraculously, she and her whole family survived the Holocaust.
 	            </p>
 	        </div>
 
