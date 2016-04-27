@@ -46,7 +46,7 @@ get_header(); ?>
 			<div class="container-fluid hidden-md hidden-sm" id="eight-lives-home">
 				<div class="row">
 					<div class="col-xs-12">
-						<h4 style="text-align:center;color:white;">Follow the lives of eight young people from the B&#281;dzin Ghetto.</h4>
+						<p style="text-align:center;color:white;font-size:24px;">Follow the lives of eight young people from the B&#281;dzin Ghetto</p>
 					</div>
 				</div>
 				<div class="row">
