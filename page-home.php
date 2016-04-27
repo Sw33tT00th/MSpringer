@@ -45,6 +45,11 @@ get_header(); ?>
             </div>
 			<div class="container-fluid hidden-md hidden-sm" id="eight-lives-home">
 				<div class="row">
+					<div class="col-xs-12">
+						<p style="text-align: center;">Follow the lives of eight young people from the B&#281;dzin Ghetto.</p>
+					</div>
+				</div>
+				<div class="row">
 					<div class="col-lg-3 col-sm-12">
 						<a href="/bedzin-p/wordpress/index.php/arnold-shay/">
 							<figure>
