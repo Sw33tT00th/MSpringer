@@ -30,7 +30,7 @@ get_header(); ?>
 						<header class="page-header">
 							<h1 class="page-title">Glossary</h1>
 						</header><!-- .page-header -->
-							<div class="col-md-8">
+							
 							<?php
 
 							query_posts( array ( 'category_name' => 'glossary', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
@@ -47,20 +47,25 @@ get_header(); ?>
 
 							endwhile; 
 
-							/*$alphabet = {'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n', 'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z'};
+							$alphabet = array('A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n', 'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z');
+
+							echo '<p style="text-align:center;">';
 
 							for ($i = 0; $i < count($alphabet); $i += 2) {
 								if(in_array($alphabet[$i], $all_letters) || in_array($alphabet[$i + 1], $all_letters)) {
-									echo '<a href="#' . $alphabet[$i] . '">' . $alphabet[$i] . '</a>';
+									echo '<a href="#' . $alphabet[$i] . '" class="glossary-letter-link">' . $alphabet[$i] . '</a>';
 								} else {
-									echo '<a href="javascript:void(0);" class="inactive">' . $alphabet[$i] . '</a>';
+									echo '<a href="javascript:void(0);" class="inactive glossary-letter-link">' . $alphabet[$i] . '</a>';
 								}
 
 								if($alphabet[$i] != 'Z') {
-									echo ' | ';
+									echo '<span style="font-size:18px;"> | </span>';
 								}
-							}*/
-
+							}
+							echo '</p>';
+							?>
+							<div class="col-md-8">
+							<?php
 							$used_letters = array();
 							for ($i = 0; $i < count($all_titles); $i += 1) {
 								# Only add new letters to list
