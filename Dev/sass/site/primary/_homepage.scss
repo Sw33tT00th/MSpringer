@@ -1,12 +1,25 @@
-.bedzinpic {
+@media screen and (min-width: 768px) {
+	.bedzinpic {
+		margin: 20px 0 20px 0;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/bedzinexhibit.jpg);
+		background-size: cover;
+		color: #fff;
+		background-attachment: fixed;
+		height: 400px;
+		width: inherit;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	margin: 20px 0 20px 0;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/bedzinexhibit.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/bedzinexhibitsmall.jpg);
 	background-size: cover;
 	color: #fff;
 	background-attachment: fixed;
 	height: 400px;
 	width: inherit;
 }
+
 
 /*@media screen and (min-width: 768px) {
 

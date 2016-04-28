@@ -1,10 +1,23 @@
-.banner {
-	background-color: yellow;   
-	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/girls.jpg);
-	background-size: cover;
-	color: #fff;
-	height:300px;
+@media screen and (min-width: 560px) {
+	.banner {
+		background-color: yellow;   
+		background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/girls.jpg);
+		background-size: cover;
+		color: #fff;
+		height:300px;
+	}
 }
+
+@media screen and (max-width: 559px) {
+	.banner {
+		background-color: yellow;   
+		background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/girlscrop2.jpg);
+		background-size: cover;
+		color: #fff;
+		height:300px;
+	}
+}
+
 
 h2.top {
 	font-family: 'Oswald';

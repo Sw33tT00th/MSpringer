@@ -85,7 +85,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<a href="javascript:void(0);"><div class="logo-image"></div></a>
+			<a class="footer-logo-link" href="http://nau.edu/martin-springer/" target="_blank" title="Northern Arizona University's Martin Springer Institute page"><div id="logo-image"></div></a>
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

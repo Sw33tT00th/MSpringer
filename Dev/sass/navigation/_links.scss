@@ -37,4 +37,7 @@ a {
 .glossary-letter-link {
 	font-size: 18px;
 
+	&:visited {
+		color: #4169e1;
+	}
 }
