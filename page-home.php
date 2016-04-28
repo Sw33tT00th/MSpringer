@@ -33,7 +33,7 @@ get_header(); ?>
                         <p>This site provides information and resources to learn about young people's lives in a Jewish ghetto in Poland within the context of the Holocaust and World War II.</p>
                     </li>
                     <li>
-                        <p>It offers teachers and educators curricular ideas and materials for preparing students before, during and after visiting the exhibit.</p>
+                        <p>It offers teachers and educators curricular ideas and materials for preparing students before, during, and after visiting the exhibit.</p>
                     </li>
                     <li>
                         <p>It offers people who would like to request the exhibit for their organization an overview about its educational value.</p>
@@ -44,6 +44,11 @@ get_header(); ?>
                 </ul>
             </div>
 			<div class="container-fluid hidden-md hidden-sm" id="eight-lives-home">
+				<div class="row">
+					<div class="col-xs-12">
+						<p style="text-align:center;color:white;font-size:24px;">Follow the lives of eight young people from the B&#281;dzin Ghetto</p>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-lg-3 col-sm-12">
 						<a href="/bedzin-p/wordpress/index.php/arnold-shay/">
@@ -221,7 +226,7 @@ get_header(); ?>
 			</div>
 
 	        <div class="container">
-	            <p>The exhibit can be requested from the Martin-Springer Institute for educational and community organizations, libraries, and other public venues. The traveling exhibit and the online version are made possible through the Martin-Springer Institute at Northern Arizona University under the directorship of Dr. Bj&ouml;rn Krondorfer. The Martin-Springer Institute was founded in 2000 by Doris and Ralph Martin. Doris-born Dora Szpringer-grew up in B&#281;dzin. Miraculously, she and her whole family survived the Holocaust.
+	            <p>The exhibit can be requested from the Martin-Springer Institute for educational and community organizations, libraries, and other public venues. The traveling exhibit and the online version are made possible through the Martin-Springer Institute at Northern Arizona University under the directorship of Dr. Bj&ouml;rn Krondorfer. The Martin-Springer Institute was founded in 2000 by Doris and Ralph Martin. Doris, born Dora Szpringer, grew up in B&#281;dzin. Miraculously, she and her whole family survived the Holocaust.
 	            </p>
 	        </div>
 

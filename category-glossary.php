@@ -47,11 +47,25 @@ get_header(); ?>
 
 							endwhile; 
 
+							$alphabet = {'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n', 'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z'};
+
+							for ($i = 0; $i < count($alphabet); $i += 2) {
+								if(in_array($alphabet[$i], $all_letters) || in_array($alphabet[$i + 1], $all_letters)) {
+									echo '<a href="#' . $alphabet[$i] . '">' . $alphabet[$i] . '</a>';
+								} else {
+									echo '<a href="javascript:void(0);" class="inactive">' . $alphabet[$i] . '</a>';
+								}
+
+								if($alphabet[$i] != 'Z') {
+									echo ' | ';
+								}
+							}
+
 							$used_letters = array();
 							for ($i = 0; $i < count($all_titles); $i += 1) {
 								# Only add new letters to list
 								if(!in_array($all_letters[$i], $used_letters)) {
-									echo '<h3 class="glossary-letters">' . $all_letters[$i] . '</h3>';
+									echo '<a id="' . $all_letters[$i] . '" href="javascript:void(0);"></a><h3 class="glossary-letters">' . $all_letters[$i] . '</h3>';
 									array_push($used_letters, $all_letters[$i]);
 								}
 								# Add every post link
@@ -77,7 +91,7 @@ get_header(); ?>
 							$counter = 0;
 							$all_titles = array();
 							$all_links = array();
-							query_posts( array ( 'category_name' => 'people', 'posts_per_page' => -1 ) );
+							query_posts( array ( 'category_name' => 'people', 'posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'title' ) );
 							while( have_posts() ) : the_post();
 
 								$title = get_the_title();
