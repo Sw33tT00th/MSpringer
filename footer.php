@@ -84,6 +84,9 @@
 				</div>
 			</div>
 		</div>
+		<div class="container">
+			<a href="javascript:void(0);"><div class="logo-image"></div></a>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
