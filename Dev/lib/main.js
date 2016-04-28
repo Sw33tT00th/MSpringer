@@ -11,11 +11,12 @@ $('#sidebar-button').click(function() {
 	if($('#sidebar-button').hasClass('sidebar-button-toggled')) {
 		$('#sidebar').removeClass('sidebar-show');
 		$('#sidebar-button').removeClass('sidebar-button-toggled');
-		$('#sidebar-button').text('>>');
+		$('#sidebar-button').html('<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>');
 	} else {
 		$('#sidebar').addClass('sidebar-show');
 		$('#sidebar-button').addClass('sidebar-button-toggled');
-		$('#sidebar-button').text('<<');
+		$('#sidebar-button').html('<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>');
+		// $('#sidebar-button').text('<');
 	}
 });
 
@@ -71,7 +72,7 @@ window.onresize = function(event) {
 	if(width >= 992) {
 		$('#sidebar').removeClass('sidebar-show');
 		$('#sidebar-button').removeClass('sidebar-button-toggled');
-		$('#sidebar-button').text('>>');
+		$('#sidebar-button').html('<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>');
 		$('.widget-area').width($('.widget-area').parent().width());
 		if($(window).scrollTop() >= 300 && $(window).scrollTop() < bottomBreak) {
 			$('.widget-area').width($('.widget-area').parent().width());

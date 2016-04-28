@@ -23,10 +23,18 @@ a {
 
 	&:hover {
 		cursor: default;
+		color: grey;
+		text-decoration: none;
+	}
+
+	&:active,
+	&:focus {
+		color: grey;
+		text-decoration: none;
 	}
 }
 
 .glossary-letter-link {
 	font-size: 18px;
-	
+
 }
