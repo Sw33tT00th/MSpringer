@@ -47,7 +47,7 @@ get_header(); ?>
 
 							endwhile; 
 
-							$alphabet = {'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n', 'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z'};
+							/*$alphabet = {'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'J', 'j', 'K', 'k', 'L', 'l', 'M', 'm', 'N', 'n', 'O', 'o', 'P', 'p', 'Q', 'q', 'R', 'r', 'S', 's', 'T', 't', 'U', 'u', 'V', 'v', 'W', 'w', 'X', 'x', 'Y', 'y', 'Z', 'z'};
 
 							for ($i = 0; $i < count($alphabet); $i += 2) {
 								if(in_array($alphabet[$i], $all_letters) || in_array($alphabet[$i + 1], $all_letters)) {
@@ -59,7 +59,7 @@ get_header(); ?>
 								if($alphabet[$i] != 'Z') {
 									echo ' | ';
 								}
-							}
+							}*/
 
 							$used_letters = array();
 							for ($i = 0; $i < count($all_titles); $i += 1) {
