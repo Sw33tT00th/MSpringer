@@ -9,7 +9,7 @@
 
 @media (max-width: 767px) {
 	img {
-		width: 100% !important;
+		width: 100%;
 	}
 
 	figure { 
@@ -28,6 +28,12 @@ object {
 figure.alignleft {
 	margin-right: 50px;
 	margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+	img.icon {
+		width: auto;
+	}
 }
 
 /*--------------------------------------------------------------
