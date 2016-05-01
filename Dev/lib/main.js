@@ -21,6 +21,11 @@ $('#sidebar-button').click(function() {
 });
 
 $(document).ready(function() {
+	$('.orphan-line').each(function() {
+		$( this ).parent().addClass('orphan-line-actual');
+		$( this ).removeClass('orphan-line');
+	});
+
 	if(width >= 992) {
 		$('.widget-area').width($('.widget-area').parent().width());
 		if($(window).scrollTop() >= 300 && $(window).scrollTop() < bottomBreak) {
