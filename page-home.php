@@ -51,7 +51,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/arnold-shay/">
+						<a href="/bedzin-p/index.php/arnold-shay/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/Arnold_Shay_24-223x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -61,7 +61,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/doris-martin/">
+						<a href="/bedzin-p/index.php/doris-martin/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/doris_martin_24-236x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -71,7 +71,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/ella-liebermann-shiber/">
+						<a href="/bedzin-p/index.php/ella-liebermann-shiber/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/ella_libermann-shiber_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -81,7 +81,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/hadassa-broder/">
+						<a href="/bedzin-p/index.php/hadassa-broder/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/hadassa_border_24-222x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -93,7 +93,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/jane-lipski/">
+						<a href="/bedzin-p/index.php/jane-lipski/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/jane_lipski_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -103,7 +103,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/rose-rechnic/">
+						<a href="/bedzin-p/index.php/rose-rechnic/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/Rose_rechnic_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -113,7 +113,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/rutka-laskier">
+						<a href="/bedzin-p/index.php/rutka-laskier">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/rutka_laskier_24-250x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -123,7 +123,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-lg-3 col-sm-12">
-						<a href="/bedzin-p/wordpress/index.php/sam-pivnik">
+						<a href="/bedzin-p/index.php/sam-pivnik">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/sam_pivnik_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -137,7 +137,7 @@ get_header(); ?>
 			<div class="container-fluid hidden-lg hidden-xs hidden-xl" id="eight-lives-home">
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/arnold-shay/">
+						<a href="/bedzin-p/index.php/arnold-shay/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/Arnold_Shay_24-223x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -147,7 +147,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/doris-martin/">
+						<a href="/bedzin-p/index.php/doris-martin/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/doris_martin_24-236x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -159,7 +159,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/ella-liebermann-shiber/">
+						<a href="/bedzin-p/index.php/ella-liebermann-shiber/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/ella_libermann-shiber_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -169,7 +169,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/hadassa-broder/">
+						<a href="/bedzin-p/index.php/hadassa-broder/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/hadassa_border_24-222x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -181,7 +181,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/jane-lipski/">
+						<a href="/bedzin-p/index.php/jane-lipski/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/jane_lipski_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -191,7 +191,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/rose-rechnic/">
+						<a href="/bedzin-p/index.php/rose-rechnic/">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/Rose_rechnic_24-228x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -203,7 +203,7 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/rutka-laskier">
+						<a href="/bedzin-p/index.php/rutka-laskier">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/rutka_laskier_24-250x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
@@ -213,7 +213,7 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<a href="/bedzin-p/wordpress/index.php/sam-pivnik">
+						<a href="/bedzin-p/index.php/sam-pivnik">
 							<figure>
 								<img src="wordpress/wp-content/uploads/2016/04/sam_pivnik_24-225x300.png" alt="" class="img-responsive lives" />
 								<figcaption>
